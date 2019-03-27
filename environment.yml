@@ -9,10 +9,10 @@ dependencies:
   - sqlalchemy
   - requests
   - pytest
+  - pyscaffold
+  - cf-units
   - pip:
     - dfply
-    - pyscaffold
-    - cf-units
     - git+https://github.com/mt-climate-office/Zentra-API
     - git+https://github.com/mt-climate-office/Mesonet-DB
     
