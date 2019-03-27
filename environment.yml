@@ -2,17 +2,17 @@ name: mesonet
 dependencies:
   - anaconda
   - python
-  - pyscaffold
   - numpy
   - pandas
   - pyodbc
   - pymssql
   - sqlalchemy
   - requests
-  - cf-units
   - pytest
   - pip:
     - dfply
+    - pyscaffold
+    - cf-units
     - git+https://github.com/mt-climate-office/Zentra-API
     - git+https://github.com/mt-climate-office/Mesonet-DB
     
